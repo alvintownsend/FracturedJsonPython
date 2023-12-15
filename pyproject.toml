@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fractured_json_test"
+version = "0.0.0"
+authors = [
+  { name="Alvin Townsend", email="fractured-json@fzzt.ch" },
+]
+maintainers = [
+  { name="Alvin Townsend", email="fractured-json@fzzt.ch" },
+]
+description = "FracturedJson is utility that formats JSON data producing highly readable but fairly compact output."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alvintownsend/FracturedJsonPython"
+Issues = "https://github.com/alvintownsend/FracturedJsonPython/issues"
